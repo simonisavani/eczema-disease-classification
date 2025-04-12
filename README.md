@@ -109,16 +109,4 @@ This project uses Gemini to:
 - Validate predictions by asking Gemini to describe or assess the condition in an image.
 - Cross-reference model predictions with Gemini's image-to-text feedback.
 
-Example usage (inside `main.py`):
-```python
-import google.generativeai as genai
-
-genai.configure(api_key=os.getenv("GEMINI_API_KEY"))
-model = genai.GenerativeModel("gemini-pro-vision")
-
-response = model.generate_content([image_data, "Does this image show signs of eczema?"])
-```
-
----
-
 Feel free to use and adapt!
