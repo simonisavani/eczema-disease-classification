@@ -1,19 +1,19 @@
-# 🧬 Eczema Disease Classification with Gemini Vision API
+# Eczema Disease Classification with Gemini Vision API
 
 This project uses **transfer learning** along with **Google's Gemini Vision API** to classify eczema from skin images. It combines the power of a pretrained CNN model and the Gemini multimodal API for improved classification and validation.
 
 ---
 
-## 🔍 Overview
+## Overview
 
-- 🔬 Classifies skin conditions with a focus on **eczema**.
-- 🧠 Uses **transfer learning** to fine-tune a pretrained model.
-- 🌐 Integrates **Gemini Vision API** for advanced image analysis or model-assisted validation.
-- 📊 Includes utilities for data splitting, accuracy evaluation, and prediction.
+- Classifies skin conditions with a focus on **eczema**.
+- Uses **transfer learning** to fine-tune a pretrained model.
+- Integrates **Gemini Vision API** for advanced image analysis or model-assisted validation.
+- Includes utilities for data splitting, accuracy evaluation, and prediction.
 
 ---
 
-## 📁 Project Structure
+## Project Structure
 
 ```
 eczema-disease-classification/
@@ -29,7 +29,7 @@ eczema-disease-classification/
 
 ---
 
-## 🚀 Getting Started
+## Getting Started
 
 ### 1. Clone the Repository
 ```bash
@@ -54,7 +54,7 @@ export GEMINI_API_KEY="your-api-key-here"
 
 ---
 
-## 🧠 Model Training
+## Model Training
 
 Organize your dataset like this:
 
@@ -76,7 +76,7 @@ python train_model.py
 
 ---
 
-## 🤖 Run Predictions (with Gemini)
+## Run Predictions (with Gemini)
 
 ```bash
 python main.py
@@ -89,7 +89,7 @@ This script:
 
 ---
 
-## 📊 Evaluation
+## Evaluation
 
 ```bash
 python accuracy.py
@@ -103,7 +103,7 @@ This computes:
 
 ---
 
-## 🌐 Gemini Vision API Integration
+## Gemini Vision API Integration
 
 This project uses Gemini to:
 - Validate predictions by asking Gemini to describe or assess the condition in an image.
